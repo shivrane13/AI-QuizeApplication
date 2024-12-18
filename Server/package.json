@@ -1,0 +1,20 @@
+{
+  "name": "quizegenerator",
+  "version": "1.0.0",
+  "description": "This is Quize Generator wich generate quize for you",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Gaurav Rane",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-mysql-session": "^3.0.3",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.7"
+  }
+}
